@@ -1,0 +1,169 @@
+* {
+  font-family: "Roboto", sans-serif;
+  background-color: grey;
+}
+
+.card {
+  height: 800px;
+  width: 400px;
+  margin-left: 35rem;
+  margin-top: 5rem;
+  background-color: gainsboro;
+}
+
+.part1 {
+  background: linear-gradient(
+    45deg,
+    #d72d46,
+    #dc324b,
+    #e13c50,
+    #e6415a,
+    #e6465a,
+    #f05064,
+    #f55569
+  );
+  height: 480px;
+  width: 400px;
+  border-radius: 0 0 0 100px;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 10px #d49094;
+}
+
+.photo {
+  background: url("/photo.png");
+  background-size: cover;
+  background-position: right;
+  width: 400px;
+  height: 480px;
+  z-index: 100;
+}
+
+.text {
+  width: 200px;
+  height: 480px;
+  background: none;
+}
+
+/* .text .icom {
+  height: 20px;
+  width: 20px;
+  background-color: aliceblue;
+} */
+
+/* .box1,
+.box2 {
+  height: 50px;
+  width: 150px;
+  background-color: white;
+}
+
+.contain {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 320px;
+} */
+
+.contain {
+  width: 400px;
+  height: 20px;
+  background-color: gainsboro;
+  padding-top: 20px;
+}
+
+.box1,
+.box2 {
+  height: 100px;
+  width: 300px;
+  background-color: white;
+  margin-top: 30px;
+  margin-left: 50px;
+  border-radius: 25px;
+  display: flex;
+  box-shadow: 5px 5px 5px 5px lightgray;
+}
+
+.a {
+  background: url("/a.png");
+  background-size: cover;
+}
+
+.b {
+  background: url("/b.png");
+  background-size: cover;
+}
+
+.a,
+.b {
+  width: 80px;
+  height: 80px;
+  border-radius: 25px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.text1,
+p,
+.num {
+  background: none;
+  color: #d53b57;
+}
+
+.num {
+  margin-top: 10px;
+  font-size: 30px;
+  padding-top: 10px;
+  padding-left: 10px;
+  font-weight: 800;
+}
+
+.text1 p {
+  padding-left: 10px;
+  margin: 0;
+}
+
+.text .text1 p,
+.text .text1 .num {
+  color: white;
+}
+
+.aa {
+  background: none;
+  color: white;
+}
+
+.aa .aa1 {
+  color: white;
+  font-weight: 500;
+  font-size: 40px;
+  margin: 0;
+  margin-top: 30px;
+}
+
+.aa .aa2 {
+  color: white;
+  font-size: 20px;
+  opacity: 50%;
+  margin: 0;
+  margin-bottom: 50px;
+}
+
+.part1 .num {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+.text {
+  padding-left: 50px;
+}
+
+.icon {
+  height: 20px;
+  width: 20px;
+  margin-top: 40px;
+  background: url("/icon.png");
+  background-size: cover;
+}
